@@ -1,0 +1,28 @@
+[
+	{
+		"text" : "系统管理",
+		"iconCls" : "icon_sys",
+		"children" : [
+			{
+				"text" : "资源管理",
+				"iconCls" : "icon_resource",
+				"url" : "/page/admin/resource.txt"
+			},
+			{
+				"text" : "角色管理",
+				"iconCls" : "icon_role",
+				"url" : "/page/admin/role.txt"
+			},
+			{
+				"text" : "用户管理",
+				"iconCls" : "icon_user",
+				"url" : "/page/admin/user.txt"
+			},
+			{
+				"text" : "部门管理",
+				"iconCls" : "icon_org",
+				"url" : "/page/admin/organization.txt"
+			}
+		]
+	}
+]

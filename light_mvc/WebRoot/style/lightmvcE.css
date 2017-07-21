@@ -1,0 +1,14 @@
+.icon_folder{background: url('images/ext/folder.png') no-repeat center center;}
+.icon_add{background: url('images/ext/add.png') no-repeat center center;}
+.icon_home{background: url('images/ext/home.png') no-repeat center center;}
+.icon_refresh{background: url('images/ext/refresh.png') no-repeat center center;}
+.icon_org{background: url('images/ext/org.png') no-repeat center center;}
+.icon_resource{background: url('images/ext/resource.png') no-repeat center center;}
+.icon_role{background: url('images/ext/role.png') no-repeat center center;}
+.icon_user{background: url('images/ext/user.png') no-repeat center center;}
+.icon_del{background: url('images/ext/del.png') no-repeat center center;}
+.icon_sys {background: url('images/ext/sys.png') no-repeat center center;}
+
+html{
+	font-family: "微软雅黑" !important;
+}

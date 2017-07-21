@@ -1,0 +1,47 @@
+#header{
+	width: 100%;
+	height: 69px;
+	background: #2076C3;
+}
+#header .left{
+	display: inline-block;
+	width: 310px;
+	height: 68px;
+	background: url(../imgs/logo.png) no-repeat left top;
+}
+#header .right{
+	height: 69px;
+	line-height: 69px;
+	float: right;
+	color: #fff;
+	font-size: 12px;
+	margin-right: 20px;
+}
+#header .right a{
+	color: #fff;
+	text-decoration: none;
+}
+#header .right a:hover{
+	color: #f60;
+}
+@media only screen and (max-width: 600px){
+	#header .left{
+		display: none;
+	}
+}
+
+#westTree li{
+	padding: 5px 5px 3px 5px;
+}
+
+#indexTab .tabs-tool{
+	border-right: none;
+	border-top : none;
+	border-left: none;
+	padding-right: 14px;
+}
+
+.layout-split-west .panel-header{
+	height: 18px;
+	line-height: 18px;
+}

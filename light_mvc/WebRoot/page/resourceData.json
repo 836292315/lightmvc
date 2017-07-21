@@ -1,0 +1,99 @@
+[
+	{
+		"id" : 1,
+		"name" : "系统管理",
+		"url" : "",
+		"iconCls" : "icon_sys",
+		"seq" : "0",
+		"children" : [
+			{
+				"id" : 19,
+				"name" : "查看",
+				"url" : "/user/view",
+				"iconCls" : "icon_user",
+				"seq" : "0"
+ 			},
+			{
+				"id" : 2,
+				"name" : "资源管理",
+				"url" : "/page/admin/resource.jsp",
+				"iconCls" : "icon_resource",
+				"seq" : "1",
+				"children" : [
+					{
+						"id" : 5,
+						"name" : "资源列表",
+						"url" : "/resource/treeGrid",
+						"iconCls" : "icon_resource",
+						"seq" : "0"
+					},
+					{
+						"id" : 6,
+						"name" : "添加",
+						"url" : "/resource/add",
+						"iconCls" : "icon_resource",
+						"seq" : "0"
+					},
+					{
+						"id" : 7,
+						"name" : "编辑",
+						"url" : "/resource/edit",
+						"iconCls" : "icon_resource",
+						"seq" : "0"
+					},
+					{
+						"id" : 8,
+						"name" : "删除",
+						"url" : "/resource/delete",
+						"iconCls" : "icon_resource",
+						"seq" : "0"
+					}
+				]
+			},
+			{
+				"id" : "3",
+				"name" : "角色管理",
+				"url" : "/page/admin/role.jsp",
+				"iconCls" : "icon_role",
+				"seq" : "2",
+				"children" : [
+					{
+						"id" : "10",
+						"name" : "角色列表",
+						"url" : "/role/dataGrid",
+						"iconCls" : "icon_role",
+						"seq" : "0"
+					},
+					{
+						"id" : "11",
+						"name" : "添加",
+						"url" : "/role/add",
+						"iconCls" : "icon_role",
+						"seq" : "0"
+					},
+					{
+						"id" : "12",
+						"name" : "编辑",
+						"url" : "/role/edit",
+						"iconCls" : "icon_role",
+						"seq" : "0"
+					},
+					{
+						"id" : "13",
+						"name" : "删除",
+						"url" : "/role/delete",
+						"iconCls" : "icon_role",
+						"seq" : "0"
+					},
+					{
+						"id" : "14",
+						"name" : "授权",
+						"url" : "/role/grant",
+						"iconCls" : "icon_role",
+						"seq" : "0"
+					}
+				]
+			}
+		]
+	}
+]
